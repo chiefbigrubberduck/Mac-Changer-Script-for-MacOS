@@ -5,6 +5,7 @@ This simple script will change your mac address, but there are some requirements
 # Requirements
 1. Ifconfig needs to be installed, but this is common on most Mac's.
 2. You need to know the name of your Wifi adapter! You can find out how by running ifconfig in the terminal, if you use a VPN, multiple entries will show up, if you have a ethernet cable, that will show up too. If you just have a wifi card, copy that and paste it in the script, watch my guide to find out how. WiFi is usually wl"something".
+3. Watch this guide to find out how to paste your wifi adapter: 
 
 
 # Notes:
