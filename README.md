@@ -1,5 +1,6 @@
 # Mac Changer Script for MacOS
-![macos](https://github.com/user-attachments/assets/579e621c-95f0-4767-84db-322a22697c7f)
+![macos](https://github.com/user-attachments/assets/b122008e-bb3e-458f-89b3-6ae191f8b07f)
+
 
 My macchanger script, but for macOS
 works 2019
