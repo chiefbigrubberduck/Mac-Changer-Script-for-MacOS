@@ -1,5 +1,6 @@
 # Mac Changer Script for MacOS
-![macos](https://github.com/user-attachments/assets/b122008e-bb3e-458f-89b3-6ae191f8b07f)
+![maclol](https://github.com/user-attachments/assets/e4eeb885-80e3-452b-b167-76622f55ef07)
+
 
 
 My macchanger script, but for macOS
