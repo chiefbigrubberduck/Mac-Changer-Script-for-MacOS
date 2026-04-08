@@ -1,12 +1,15 @@
 #!/bin/zsh
 
-# REPLACE THIS with your actual interface name
-INTERFACE="Your WiFi Adapter!!"
+# Define the interface
+INTERFACE="YOUR WIFI ADAPTER HERE!!!!"
 
-# 1. Bring the interface DOWN
+echo "Stopping your WiFi card..."
 sudo ifconfig "$INTERFACE" down
 
-# 2. Change the MAC
-sudo macchanger -r "$INTERFACE"
+echo "Generating and applying new MAC address..."
+# This generates a random MAC and applies it
+sudo ifconfig "$INTERFACE" ether $(openssl rand -hex 6 | sed 's/$$..$$/\1:/g; s/.$//')
 
-echo "MAC address changed, WiFi is still turned off, you can turn it back on through your main menu."
+echo "Finishing..."
+
+echo "✅ Done! New MAC applied, you will still have to turn your WiFi back on."
