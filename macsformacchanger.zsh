@@ -1,15 +1,18 @@
 #!/bin/zsh
 
-# Define the interface
-INTERFACE="YOUR WIFI ADAPTER HERE!!!!"
+INTERFACE="YOUR WIFI ADAPTER!!!"
 
-echo "Stopping your WiFi card..."
+echo "Stopping your WiFi card ($INTERFACE)..."
 sudo ifconfig "$INTERFACE" down
 
 echo "Generating and applying new MAC address..."
-# This generates a random MAC and applies it
-sudo ifconfig "$INTERFACE" ether $(openssl rand -hex 6 | sed 's/$$..$$/\1:/g; s/.$//')
 
-echo "Finishing..."
+NEW_MAC=$(openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//')
 
-echo "✅ Done! New MAC applied, you will still have to turn your WiFi back on."
+echo "Generated MAC: $NEW_MAC"
+
+# Apply it
+sudo ifconfig "$INTERFACE" ether "$NEW_MAC"
+
+echo "Done! New MAC applied."
+echo "You will need to turn your WiFi card back on!"
