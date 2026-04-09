@@ -1,3 +1,5 @@
+# NOTICE: This is currently being developed, if you have issues with the script, that's your problem. I am working on a solution, but I will need time, the script probably won't work!!!!!!!!!!
+
 # Mac Changer Script for MacOS
 ![maclol](https://github.com/user-attachments/assets/e4eeb885-80e3-452b-b167-76622f55ef07)
 
