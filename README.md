@@ -9,8 +9,10 @@ This simple script will change your mac address, but there are some requirements
 3. Watch this guide to find out how to paste your wifi adapter:
    https://github.com/user-attachments/assets/0d95c43c-eda5-4347-a2c1-ef2c8c01ed2b
 
-
-
+# How-to run (done in terminal)
+1. cd into the directory you downloaded the script too, probably downloads, so "cd Downloads"
+2. Then run "zsh macsformacchanger.zsh"
+3. That should do it
 
 # Notes:
 1. This was developed on linux, so if it doesn't work, feel free to report it in the wiki, or somewhere else.
