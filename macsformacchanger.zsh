@@ -16,3 +16,4 @@ sudo ifconfig "$INTERFACE" ether "$NEW_MAC"
 
 echo "Done! New MAC applied."
 echo "You will need to turn your WiFi card back on!"
+echo "Check the Github page for updates."
