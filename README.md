@@ -1,5 +1,6 @@
 # Mac Spoofer Script for MacOS
 ![maclol](https://github.com/user-attachments/assets/e4eeb885-80e3-452b-b167-76622f55ef07)
+
 This script will spoof your MAC address, this can be used for various purposes, such as remaining anonymous, or for learning purposes.
 
 ## Requirements
@@ -9,6 +10,7 @@ This script will spoof your MAC address, this can be used for various purposes, 
    https://github.com/user-attachments/assets/0d95c43c-eda5-4347-a2c1-ef2c8c01ed2b
 4. zsh needs to be installed
 5. sed needs to be installed
+6. openssl needs to be installed
 
 ## How-to run (done in terminal)
 1. cd into the directory you downloaded the script too, probably downloads, so "cd Downloads"
