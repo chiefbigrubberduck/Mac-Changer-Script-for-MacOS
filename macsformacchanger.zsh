@@ -2,7 +2,7 @@
 
 INTERFACE="YOUR WIFI ADAPTER!!!"
 
-echo "Stopping your WiFi card ($INTERFACE)..."
+echo "Stopping your Wi-Fi card ($INTERFACE)..."
 sudo ifconfig "$INTERFACE" down
 
 echo "Generating and applying new MAC address..."
@@ -15,5 +15,4 @@ echo "Generated MAC: $NEW_MAC"
 sudo ifconfig "$INTERFACE" ether "$NEW_MAC"
 
 echo "Done! New MAC applied."
-echo "You will need to turn your WiFi card back on!"
-echo "Check the Github page for updates."
+echo "You will need to turn your Wi-Fi card back on!"
