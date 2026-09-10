@@ -1,4 +1,4 @@
-# Macchanger for MacOS
+# Macchanger Script for MacOS
 ![maclol](https://github.com/user-attachments/assets/e4eeb885-80e3-452b-b167-76622f55ef07)
 
 This is a small shell script that uses `openssl` and `ifconfig` to change and apply a MAC address.
